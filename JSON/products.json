@@ -1,0 +1,16 @@
+ {
+    "products": [
+ 
+       {
+        "name" : "Product 1",
+        "url" : "Amazon Url for the product",
+        "price" : "100.00"
+       },
+ 
+       {
+        "name" : "Product 2",
+        "url" : "Amazon Url for the product",
+        "price" : "100.00"
+       }      
+    ]
+ }
