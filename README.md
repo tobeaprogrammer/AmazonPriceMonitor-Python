@@ -2,8 +2,8 @@
 
 <div>
   <h5><div name="title">
-    Project Description : The Python Program uses a JSON input and checks for the prices of the prodcuts based on the URL provided. If the price is lower than the price provided in the JSON, it will send a email with price change details and the URL to the mentioned email id. For the Project to be able to send email add the email credentials in the JSON/cred.json File. The Prodcuts to monitor will be added in the JSON/products.JSON in the name, url, price format. The ProductMonitor_Amazon.py file contains the code to perform all the operations. This can be mapped to a task in the task scheduler or a job on jenkins. [Recommended : Triggered every 24 hours]
-    </div></h5>
+    Project Description : The Python Program uses a JSON input and checks for the prices of the prodcuts based on the URL provided. If the price is lower than the price provided in the JSON, it will send a email with price change details and the URL to the mentioned email id. The ProductMonitor_Amazon.py file contains the code to perform all the operations. This can be mapped to a task in the task scheduler or a job on jenkins. [Recommended : Triggered every 24 hours]. The Input files are in the JSON folder. 
+    </div></h5><br/><br/>
   <div name="setup">
     Setup : <br/>
     <ol>
