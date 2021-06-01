@@ -2,17 +2,19 @@
 
 <div>
   <h5><div name="title">
-    Project Description : The Python Program uses a JSON input and checks for the prices of the prodcuts based on the URL provided. If the price is lower than the price provided in the JSON, it will send a email with price change details and the URL to the mentioned email id. The ProductMonitor_Amazon.py file contains the code to perform all the operations. This can be mapped to a task in the task scheduler or a job on jenkins. [Recommended : Triggered every 24 hours]. The Input files are in the JSON folder. 
-    </div></h5><br/><br/>
+    Project Description : <br/>
+    <p> The Python Program uses a JSON input and checks for the prices of the prodcuts based on the URL provided. If the price is lower than the price provided in the JSON, it will send a email with price change details and the URL to the mentioned email id. The ProductMonitor_Amazon.py file contains the code to perform all the operations. This can be mapped to a task in the task scheduler or a job on jenkins. [Recommended : Triggered every 24 hours]. The Input files are in the JSON folder. </p>
+    </div></h5><br/>
   <div name="setup">
     Setup : <br/>
     <ol>
         <li> JSON / cred.json -> Enter the email credentails
         <li> JSON / products.json -> Enter the product details in the format [sample provided]
-        <li> utilities / MailOperations.py -> Enter the Recievers Email in the SendEmail functions optional argument
+        <li> utilities / MailOperations.py -> Enter the Recievers Email in the 'SendEmail' functions optional argument
     </ol>
   </div>
- </div>
+ </div><br/>
+ <h5> Project Details : </h5><br/>
 <table>
   <tr><td><b>Programming Language</b></td><td>Python</td></tr>
   <tr><td><b>Project Output</b></td><td>Email if conditions are true</td></tr>
