@@ -1,15 +1,11 @@
 # <a href="https://github.com/tobeaprogrammer/AmazonProductMonitor_Python/edit/main/README.md">Product Price Monitor for Amazon</a>
 
-<div>
-  <div name="title">
-    
+<div>    
     <h5><u><i>Project Description :</u></i></h5><br/>
-    
     <p style ="text-indent:40px"> 
       The Python Program uses a JSON input and checks for the prices of the prodcuts based on the URL provided. If the price is lower than the price provided in the JSON, it will send a email with price change details and the URL to the mentioned email id. The ProductMonitor_Amazon.py file contains the code to perform all the operations. This can be mapped to a task in the task scheduler or a job on jenkins. [Recommended : Triggered every 24 hours]. The Input files are in the JSON folder. 
     </p>
-    
-  </div><<br/>
+    <br/>
   <div name="setup">
     <h5><u><i>Project Setup :</u></i></h5>
     <ol>
