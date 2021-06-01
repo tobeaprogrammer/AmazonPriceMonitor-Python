@@ -14,7 +14,7 @@ from email.mime.multipart import MIMEMultipart
 
 global key, user
 
-def SendMail(Subject,Body,To="botnotifier007@gmail.com"):
+def SendMail(Subject,Body,To="test@gmail.com"):
     #Fetch Credentials 
     with open('JSON/cred.json') as cred_file:
         data = json.load(cred_file)
