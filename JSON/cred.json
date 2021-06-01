@@ -1,12 +1,6 @@
 {
     "credentials":
        {
-           "github":
-           {
-               "Name":"github",
-               "Auth_Code":"asdw",
-               "username":"user"
-           },
           "gmail":
           {
                "user":"a@gmail.com",
